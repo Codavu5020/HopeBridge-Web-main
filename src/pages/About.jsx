@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'
 import { CircleCheck } from 'lucide-react'
 import SectionHeading from '../components/SectionHeading'
-import { deliverables, process, stack, team } from '../data/team'
+import data from '../data/team.json'
+const { deliverables, process, stack, team } = data
 
 function getInitials(name) {
   return name
